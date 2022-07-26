@@ -14,8 +14,14 @@ body{
     overflow: hidden;
     gap: 10px;
     justify-content: space-between;
+    margin: 0;
+    padding-left: 0;
     align-items: center;
     color: aliceblue;
+}
+
+.nav-logo:hover{
+    cursor: pointer;
 }
 
 .nav-button{

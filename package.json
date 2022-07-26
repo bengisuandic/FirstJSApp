@@ -1,0 +1,22 @@
+{
+  "name": "firstjsapp",
+  "version": "1.0.0",
+  "description": "My first app made with plain JavaScript and vanilla html/css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengisuandic/FirstJSApp.git"
+  },
+  "author": "bengi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengisuandic/FirstJSApp/issues"
+  },
+  "homepage": "https://github.com/bengisuandic/FirstJSApp#readme",
+  "dependencies": {
+    "firebase": "^9.9.1"
+  }
+}
