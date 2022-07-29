@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="resources/style.css" />
   </head>
   <body>
+    <script src="app.js" defer></script>
     <nav class="top-navigation basic-flex">
       <div id="turn-default">
         <img
@@ -19,9 +20,9 @@
       </div>
       <div class="basic-flex">
         <button id="turn-yellow" class="nav-button">Banana</button>
-        <button id="turn-pink"class="nav-button">The Pastels</button>
+        <button id="turn-pink" class="nav-button">The Pastels</button>
         <button class="nav-button">Navigation??</button>
-    </div>
+      </div>
     </nav>
     <div class="container basic-flex">
       <div class="headers">
@@ -29,7 +30,19 @@
         <h3>But I'm not feeling well</h3>
       </div>
     </div>
+
+    <div id="go" class="go">CLICK OR..</div>
+
+    
+    <!-- <script>
+      go.addEventListener("click", function (e) {
+        const el = e.currentTarget;
+        console.log(el);
+        setTimeout(function () {
+          el.classList.add("circle");
+        }, 2000);
+      });
+    </> -->
+    <!-- Optional chaining: do not stop the javascript code even if you're trying to 
   </body>
-  <script src="app.js"></script>
-  <script type="module" src="/index.js"></script>
 </html>

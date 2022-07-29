@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: rgb(143, 143, 255);
 }
 
 .basic-flex{
@@ -40,3 +41,33 @@ body{
 .headers{
     margin: 0px auto;
 }
+.go {
+    margin: 1rem;
+    background: white;
+    padding: 5rem;
+    width: 25rem;
+  }
+
+.go:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+  .go.circle {
+    border-radius: 50%;
+  }
+
+  .go.red {
+    background: red;
+    width: 30%;
+  }
+  .go.purple {
+    background: purple;
+    color: white;
+    width: 25%;
+  }
+
+  .go.dontFadeOut {
+    width: 15%;
+
+  }
